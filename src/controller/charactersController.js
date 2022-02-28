@@ -143,6 +143,7 @@ const updateCharacter = async (req, res) => {
 
     if ([imagen, nombre, edad, peso, historia].includes("")) {
       res.status(400).json({ msg: "Todos los campos son obligatorios" });
+      return;
     }
 
     if (await checkCharacter(id)) {
