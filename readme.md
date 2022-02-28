@@ -27,7 +27,7 @@ npm start
 
 ## El archivo .env requiere
 - PORT= 'El puerto donde iniciara el servidor'  
-- NODE_ENV = 'El entorno de desarollo en el que iniciara el servidor, puede ser test, development, production'  
+- NODE_ENV = 'El entorno de desarollo en el que iniciara el servidor, puede ser test, development ó production'  
 - JWT_SECRET_WORD = 'Una palabra secreta para el token'  
 - NODEMMAILER_USER = 'Una email de gmail'  
 - NODEMAILER_PASS = 'La contraseña del mail'
